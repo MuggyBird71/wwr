@@ -1,0 +1,50 @@
+@import url('?family=Roboto:wght@300&family=Rock+Salt&display=swap');
+
+:root{
+    --primary-color:#396E94;
+    --secondary-color:#E7C24F;
+    --accent1-color:#A42212;
+    --accent2-color:white;
+    --heading-font:"Rock Salt";
+    --paragraph-font: Roboto,Helvetica,sans-serif;
+    
+    --headline-color-on-white:#0f2636;  
+    --headline-color-on-color:white;  
+    --paragraph-color-on-white:#122b3d;  
+    --paragraph-color-on-color:white; 
+    --paragraph-background-color:#193346;
+    --nav-link-color:#396E94;
+    --nav-background-color:#D4AC0D;
+    --nav-hover-link-color:white;
+    --nav-hover-background-color:#396E94;}
+    
+    body{max-width: 960px;
+        margin:0auto;
+        padding: 20px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-family:var('Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif);
+        color: var(--primary-color);
+    }
+    header{
+        padding: 20px;
+        background-color: var(--accent1-color)
+    }
+    p{
+        padding:25px
+    }
+    nav{
+        background-color: var(--nav-background-color);
+        font-size: 1.2rem;
+        display: flex;
+    }
+    nav a {
+        display: block;
+        color: var(--nav-link-color);
+        text-decoration: none;
+        padding: 1rem;
+    }
+    nav a:hover {
+        color: var(--nav-hover-link-color);
+        background-color: var(--nav-hover-background-color);
+    }
